@@ -1,0 +1,242 @@
+/*BEGIN Logitech f310 Controller Styling*/
+.controller.custom {
+    background: url(f310-assets/base.svg);
+    height: 596px;
+    width: 796px;
+    background-repeat: no-repeat;
+}
+
+.custom.disconnected {
+    background: url(f310-assets/disconected.svg);
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers {
+    width: 555.7px;
+    height: 98px;
+    position: absolute;
+    left: 120.3px;
+}
+
+.custom .trigger {
+    width: 75px;
+    height: 98px;
+    background: url(f310-assets/triggers.svg);
+    opacity: 0;
+}
+
+.custom .trigger.left {
+    float: left;
+}
+
+.custom .trigger.right {
+    float: right;
+    background-position-x: right;
+}
+
+.custom .bumper {
+    width: 77.7px;
+    height: 20.3px;
+    background: url(f310-assets/bumpers.svg);
+    opacity: 0;
+}
+
+.custom .bumpers {
+    position: absolute;
+    width: 552.3px;
+    height: 20.3px;
+    left: 122.1px;
+    top: 112.6px;
+}
+
+.custom .bumper.pressed {
+    opacity: 1;
+}
+
+.custom .bumper.left {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    float: left;
+}
+
+.custom .bumper.right {
+    float: right;
+}
+
+.custom .arrows {
+    position: absolute;
+    width: 208.2px;
+    height: 25px;
+    top: 228.9px;
+    left: 294.2px;
+}
+
+.custom .back, .custom .start {
+    background: url(f310-assets/menus.svg);
+    width: 34px;
+    height: 25px;
+    opacity: 0;
+}
+
+.custom .back.pressed, .custom .start.pressed {    
+    opacity: 1;
+}
+
+.custom .back {
+    float: left;
+    width: 43.3px;
+    transform: rotateY(180deg);
+}
+
+.custom .start {
+    float: right;
+    width: 43.3px;
+}
+
+.custom .abxy {
+    position: absolute;
+    width: 173.4px;
+    height: 175px;
+    top: 211.9px;
+    left: 541.5px;
+}
+
+.custom .button {
+    position: absolute;
+    width: 52.7px;
+    height: 52.7px;
+    background: url(f310-assets/xyba.svg);
+}
+
+.custom .button.pressed {
+    margin-top: 5px;
+    background-position-y: -58.9px;
+    opacity: 1;
+}
+
+.custom .a {
+    background-position: 53.5px -1px;
+    background-size: 224px;
+    top: 117.8px;
+    left: 60.5px;
+}
+
+.custom .b {
+    background-position: 109.9px -1px;
+    background-size: 224px;
+    top: 57px;
+    right: -0.5px;
+}
+
+.custom .x {
+    background-position: -0.9px -0.8px;
+    background-size: 224px;
+    top: 57px;
+}
+
+.custom .y {
+    background-position: -57.5px -1px;
+    background-size: 224px;
+    left: 60.5px;
+    top: -3.7px;
+}
+
+.custom .sticks {
+    position: absolute;
+    width: 327.6px;
+    height: 101.9px;
+    top: 380.5px;
+    left: 234.5px;
+}
+
+.custom .stick {
+    position: absolute;
+    background: url(f310-assets/thumbs.svg);
+    background-position-x: right;
+    height: 101.9px;
+    width: 101.9px;    
+}
+
+.custom .stick.pressed.left, .custom .stick.pressed.right {
+    background-position-x: left;
+}
+
+.custom .stick.right {
+    left: 225.7px;
+}
+
+.custom .dpad {
+    position: absolute;
+    width: 130.5px;
+    height: 130.5px;
+    top: 227.5px;
+    left: 102.7px;
+}
+
+.custom .face {
+    background: url(f310-assets/dpad.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.custom .face.up, .custom .face.down {
+    width: 65.25px;
+    height: 39px;
+}
+
+.custom .face.left, .custom .face.right {
+    width: 65.25px;
+    height: 39px;
+}
+
+.custom .face.up {
+    left: 32.5px;
+    top: 13.4px;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+.custom .face.down {
+    left: 32.5px;
+    top: 78.5px;
+    transform: rotate(-90deg);
+    opacity: 0;
+}
+
+.custom .face.left {
+    top: 46px;
+    opacity: 0;
+}
+
+.custom .face.right {
+    top: 46px;
+    left: 65.1px;
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+.custom .face.pressed {
+    opacity: 1;
+}
+
+.custom .meta{
+    background: url(f310-assets/home.svg);
+    width: 86.2px;
+    height: 65.9px;
+    position: absolute;
+    left: 356px;
+    top: 236.3px;
+    opacity: 0;
+}
+
+.custom .meta.pressed{
+    opacity: 1;
+}
+
+.custom.half {
+    margin-top: -279px;
+}
+/*END Logitech f310 Controller Styling*/
