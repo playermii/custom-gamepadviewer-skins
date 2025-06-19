@@ -4,4 +4,4 @@ In this repo you will find:
 - Logitech f710 skin (soon)
 
 Use the following link to access to the skin:
-https://playermii.github.io/custom-gamepdviewer-skins/f310/f310.css
+https://playermii.github.io/custom-gamepadviewer-skins/f310/f310.css
