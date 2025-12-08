@@ -7,7 +7,7 @@
 }
 
 .custom.disconnected {
-    background: url(f310-assets/disconected.svg);
+    background: url(f310-assets/disconnected.svg);
 }
 
 .custom.disconnected div {
@@ -240,3 +240,4 @@
     margin-top: -279px;
 }
 /*END Logitech f310 Controller Styling*/
+
