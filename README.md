@@ -7,4 +7,4 @@ In this repo you will find:
 
  **OLD LOGITECH GAMEPADS**
 - **Precision Gamepad 2**
-  - link: https://playermii.github.io/custom-gamepadviewer-skins/Presition Gamepad 2/Presition Gamepad 2.css
+  - link: https://playermii.github.io/custom-gamepadviewer-skins/Presition%20Gamepad%202/Presition%20Gamepad%202.css
