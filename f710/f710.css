@@ -7,7 +7,7 @@
 }
 
 .custom.disconnected {
-    background: url(f710-assets/disconected.svg);
+    background: url(f710-assets/disconnected.svg);
 }
 
 .custom.disconnected div {
@@ -240,3 +240,4 @@
     margin-top: -279px;
 }
 /*END Logitech f710 Controller Styling*/
+
