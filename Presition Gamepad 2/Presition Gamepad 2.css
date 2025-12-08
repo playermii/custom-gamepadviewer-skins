@@ -1,0 +1,204 @@
+/*BEGIN Logitech f310 Controller Styling*/
+.controller.custom {
+    background: url(pg2-assets/base.svg);
+    height: 596px;
+    width: 750px;
+    background-repeat: no-repeat;
+}
+
+.custom.disconnected {
+    background: url(pg2-assets/disconnected.svg);
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers {
+    width: 536.5px;
+    height: 98px;
+    position: absolute;
+    left: 107.5px;
+}
+
+.custom .trigger {
+    width: 91px;
+    height: 88px;
+    background: url(pg2-assets/bumpers2.svg);
+    opacity: 0;
+}
+
+.custom .trigger.left {
+    float: left;
+}
+
+.custom .trigger.right {
+    float: right;
+    background-position-x: right;
+}
+
+.custom .bumper {
+    width: 91.5px;
+    height: 24.9px;
+    background: url(pg2-assets/bumpers.svg);
+    opacity: 0;
+}
+
+.custom .bumpers {
+    position: absolute;
+    width: 537.3px;
+    height: 20.3px;
+    left: 107.1px;
+    top: 93.6px;
+}
+
+.custom .bumper.pressed {
+    opacity: 1;
+}
+
+.custom .bumper.left {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    float: left;
+}
+
+.custom .bumper.right {
+    float: right;
+}
+
+.custom .arrows {
+    position: absolute;
+    width: 162.2px;
+    height: 25px;
+    top: 199.9px;
+    left: 294.2px;
+}
+
+.custom .back, .custom .start {
+    background: url(pg2-assets/menus.svg);
+    width: 34px;
+    height: 25px;
+    opacity: 0;
+}
+
+.custom .back.pressed, .custom .start.pressed {    
+    opacity: 1;
+}
+
+.custom .back {
+    float: left;
+    width: 43.3px;
+    transform: rotateY(180deg);
+}
+
+.custom .start {
+    float: right;
+    width: 43.3px;
+}
+
+.custom .abxy {
+    position: absolute;
+    width: 173.4px;
+    height: 175px;
+    top: 182.9px;
+    left: 501.5px;
+}
+
+.custom .button {
+    position: absolute;
+    width: 52.7px;
+    height: 52.7px;
+    background: url(pg2-assets/1234.svg);
+}
+
+.custom .button.pressed {
+    margin-top: 5px;
+    background-position-y: -58.9px;
+    opacity: 1;
+}
+
+.custom .a {
+    background-position: 53.5px -1px;
+    background-size: 224px;
+    top: 117.8px;
+    left: 60.5px;
+}
+
+.custom .b {
+    background-position: 109.9px -1px;
+    background-size: 224px;
+    top: 57px;
+    right: -0.5px;
+}
+
+.custom .x {
+    background-position: -0.9px -0.8px;
+    background-size: 224px;
+    top: 57px;
+}
+
+.custom .y {
+    background-position: -57.5px -1px;
+    background-size: 224px;
+    left: 60.5px;
+    top: -3.7px;
+}
+
+.custom .dpad {
+    position: absolute;
+    width: 130.5px;
+    height: 130.5px;
+    top: 199.5px;
+    left: 98.7px;
+}
+
+.custom .face {
+    background: url(pg2-assets/dpad.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.custom .face.up, .custom .face.down {
+    width: 65.25px;
+    height: 39px;
+}
+
+.custom .face.left, .custom .face.right {
+    width: 65.25px;
+    height: 39px;
+}
+
+.custom .face.up {
+    left: 32.5px;
+    top: 13.4px;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+.custom .face.down {
+    left: 32.5px;
+    top: 78.5px;
+    transform: rotate(-90deg);
+    opacity: 0;
+}
+
+.custom .face.left {
+    top: 46px;
+    opacity: 0;
+}
+
+.custom .face.right {
+    top: 46px;
+    left: 65.1px;
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+.custom .face.pressed {
+    opacity: 1;
+}
+
+.custom.half {
+    margin-top: -279px;
+}
+/*END Logitech f310 Controller Styling*/
