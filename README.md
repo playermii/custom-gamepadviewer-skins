@@ -4,3 +4,7 @@ In this repo you will find:
   - link: https://playermii.github.io/custom-gamepadviewer-skins/f310/f310.css
 - **Logitech f710 skin**
   - link: https://playermii.github.io/custom-gamepadviewer-skins/f710/f710.css
+
+ **OLD LOGITECH GAMEPADS**
+- **Precision Gamepad 2**
+  - link: https://playermii.github.io/custom-gamepadviewer-skins/Presition Gamepad 2/Presition Gamepad 2.css
